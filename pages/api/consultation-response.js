@@ -13,42 +13,34 @@ import path from "path";
 //   },
 // });
 
-// const transporter = nodemailer.createTransport({
-//   host: process.env.SMTP_HOST,
-//   port: process.env.SMTP_PORT,
-//   secure: process.env.SMTP_PORT == 465, // true for 465, false for other ports
-//   auth: {
-//     user: process.env.SUPPORT_EMAIL,
-//     pass: process.env.EMAIL_PASS,
-//   },
-//   tls: {
-//     // Do not fail on invalid certs
-//     rejectUnauthorized: false,
-//   },
-// });
-
-// const transporter = nodemailer.createTransport({
-// 	host: "smtp.office365.com",
-// 	port: 587,
-// 	secure: false,
-// 	auth: {
-// 		user: "contact@usshape.org",
-// 		pass: "786@USshape~",
-// 	},
-// });
-
 const transporter = nodemailer.createTransport({
-  host: "premium219.web-hosting.com",
-  port: Number(587),
-  secure: false,
+  host: process.env.SMTP_HOST,
+  port: process.env.SMTP_PORT,
+  secure: false, // true for 465, false for other ports
   auth: {
-    user: "support@providerconcerns.com",
-    pass: "=gK$5UH]x1#U",
+    user: process.env.SUPPORT_EMAIL,
+    pass: process.env.EMAIL_PASS,
+    // pass: "=gK$5UH]x1#U",
   },
   tls: {
+    // Do not fail on invalid certs
     rejectUnauthorized: false,
   },
 });
+
+
+// const transporter = nodemailer.createTransport({
+//   host: "premium219.web-hosting.com",
+//   port: Number(587),
+//   secure: false,
+//   auth: {
+//     user: "support@providerconcerns.com",
+//     pass: "=gK$5UH]x1#U",
+//   },
+//   tls: {
+//     rejectUnauthorized: false,
+//   },
+// });
 
 export default async (req, res) => {
   const { name, email } = req.body;
