@@ -87,28 +87,6 @@ export const ConsultationResponseEmail = ({ name, email }) => {
             <Text className="text-black text-[14px] leading-[24px]">
               Regards,
             </Text>
-            <Text className="text-black text-[14px] leading-[24px]">
-              John Howard | Director of Business Development
-            </Text>
-            <Text className="text-black text-[14px] leading-[24px]">
-              Wyoming, USA
-            </Text>
-            <Text className="text-black text-[14px] leading-[24px]">
-              <Link
-                href="tel:+18882852880"
-                className="text-blue-600 no-underline"
-              >
-                +1 (888) 285-2880
-              </Link>
-            </Text>
-            <Text className="text-black text-[14px] leading-[24px]">
-              <Link
-                href="www.providerconcerns.com"
-                className="text-blue-600 no-underline"
-              >
-                www.providerconcerns.com
-              </Link>
-            </Text>
             <Section className="mt-[32px]">
               <BusinessSignature />
             </Section>
