@@ -9,7 +9,6 @@ import OurExpertise from "../components/HomeOne/OurExpertise";
 import Specialities from "../components/HomeOne/Specialities";
 import Benefits from "../components/HomeOne/Benefits";
 import TestimonialSlider from "../components/Common/TestimonialSlider";
-import LatestBlogPost from "../components/Common/LatestBlogPost";
 import Footer from "../components/_App/Footer";
 import Certifications from "../components/HomeOne/Certifications";
 

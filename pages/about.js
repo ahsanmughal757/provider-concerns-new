@@ -20,14 +20,8 @@ const About = () => {
 
 			<Navbar />
 
-			{/* <PageBanner
-        pageTitle="About"
-        homePageUrl="/"
-        homePageText="Home"
-        activePageText="About"
-        bgImage="page-title-one"
-      /> */}
 			<AboutContent />
+			
 			<OurExpertise />
 
 			<WhatMakesDifferent />

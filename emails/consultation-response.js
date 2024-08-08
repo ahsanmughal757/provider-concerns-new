@@ -61,7 +61,7 @@ export const ConsultationResponseEmail = ({ name, email }) => {
             <Text className="text-black text-[14px] leading-[24px]">
               Provider Concerns Solutions boasts over a decade of expertise in
               the RCM space, successfully aiding Labs, Surgery Centers,
-              Practices, Hospitals, and various specialties across all states.
+              Practices, Hospitals, Dentists and various specialties across all states.
               With a focus on optimizing reimbursements and collections, we
               maintain an impressive success rate exceeding 95%. Our proficiency
               lies in efficiently managing A/R, particularly for denied,
