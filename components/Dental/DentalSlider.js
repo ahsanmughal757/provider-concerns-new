@@ -28,7 +28,7 @@ const DentalSlider = () => {
           <div
             className="slider-item"
             style={{
-              backgroundImage: `url(/images/home-one/home-slide-1.jpg)`,
+              backgroundImage: `url(/images/home-one/home-slide-3.jpg)`,
             }}
           >
             <div className="d-table">
