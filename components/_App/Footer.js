@@ -104,6 +104,9 @@ const Footer = () => {
 										<li>
 											<Link href="/specialities">Specialities</Link>
 										</li>
+										<li>
+											<Link href="/dental">Dental Billing</Link>
+										</li>
 										{/* <li>
 											<Link href="/blog">Blog</Link>
 										</li> */}

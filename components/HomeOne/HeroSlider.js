@@ -13,7 +13,7 @@ const HeroSlider = () => {
         navigation={true}
         autoplay={{
           delay: 3000,
-          disableOnInteraction: false
+          disableOnInteraction: false,
         }}
         effect="fade"
         pagination={{
@@ -130,7 +130,9 @@ const HeroSlider = () => {
                         },
                         type: "spring",
                       }}
-                    >Medical Practices Revenue Maximization</motion.h1>
+                    >
+                      Medical Practices Revenue Maximization
+                    </motion.h1>
                     <motion.p
                       initial={{ x: 30, opacity: 0 }}
                       whileInView={{
@@ -203,8 +205,8 @@ const HeroSlider = () => {
                     <div className="common-btn">
                       <Link href="tel:+18882852880​">Click to Call</Link>
 
-                      <Link href="#contact" className="cmn-btn-right">
-                        Make Appointment
+                      <Link href="/dental" className="cmn-btn-right">
+                        View Dental Billing Services
                       </Link>
                     </div>
                   </div>

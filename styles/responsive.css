@@ -336,6 +336,13 @@
     padding: 10px 15px;
   }
   /*-- End Services --*/
+
+  /* Start Dental Services */
+  .dental-service-item {
+    height: fit-content;
+  }  
+  /* End Dental Services */
+
   /*-- Expertise --*/
   .expertise-item .expertise-inner {
     padding-top: 35px;
@@ -1790,6 +1797,15 @@
     font-size: 20px;
   }
   /*-- End Services --*/
+
+  /* Start Dental Services */
+  .dental-service-item {
+    height: fit-content;
+  }
+
+  /* End Dental Services */
+
+
   /*-- Expertise --*/
   .expertise-item .expertise-inner {
     padding-top: 36px;
