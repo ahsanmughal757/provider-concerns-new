@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { motion } from "framer-motion";
 
-const Services = () => {
+const Services = ({ showTitle = true }) => {
   return (
     <div className="container mb-5">
       <motion.div
@@ -13,9 +13,11 @@ const Services = () => {
         className="speciality-item"
       >
         <div className="row">
-          <div className="section-title">
-            <h2>Our Dental Services</h2>
-          </div>
+          {showTitle && (
+            <div className="section-title">
+              <h2>Our Dental Services</h2>
+            </div>
+          )}
 
           <div className="col-lg-4">
             <motion.div
