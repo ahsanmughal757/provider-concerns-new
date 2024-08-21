@@ -6,7 +6,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Healthcare Provider Billing Solutions - Provider Concerns Solutions</title>
+        <title>
+          Healthcare Providers Billing Solutions - Provider Concerns Solutions
+        </title>
         <meta name="robots" content="noindex,nofollow" />
         <meta
           name="viewport"
@@ -15,7 +17,7 @@ const Layout = ({ children }) => {
       </Head>
 
       {children}
-      
+
       <GoTop scrollStepInPx="100" delayInMs="10.50" />
     </>
   );
