@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
         <title>
           Healthcare Providers Billing Solutions - Provider Concerns Solutions
         </title>
-        <meta name="robots" content="noindex,nofollow" />
+        <meta name="robots" content="index,follow" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
