@@ -1,48 +1,41 @@
 import React from "react";
 import TopHeader from "../../components/_App/TopHeader";
 import Navbar from "../../components/_App/Navbar";
+import MainBanner from "../../components/Dental/MainBanner";
+import Expertise from "../../components/Dental/Expertise";
+import OurServices from "../../components/Dental/OurServices";
 import Stats from "../../components/Dental/Stats";
-import Consultation from "../../components/HomeOne/Consultation";
-import Services from "../../components/Dental/Services";
-import OurExpertise from "../../components/HomeOne/OurExpertise";
-import Specialities from "../../components/HomeOne/Specialities";
-import Benefits from "../../components/HomeOne/Benefits";
-import TestimonialSlider from "../../components/Dental/TestimonialSlider";
 import Footer from "../../components/_App/Footer";
+import Consultation from "../../components/HomeOne/Consultation";
+import TestimonialSlider from "../../components/Dental/TestimonialSlider";
 import Certifications from "../../components/HomeOne/Certifications";
-import DentalSlider from "../../components/Dental/DentalSlider";
 
-const Index = () => {
-	return (
-		<>
-			<TopHeader />
+const Index3 = () => {
+  return (
+    <>
+      <TopHeader />
 
-			<Navbar />
+      <Navbar />
 
-			<DentalSlider />
+      <MainBanner />
 
-			<Stats />
+      <div className="pb-100">
+        <Stats />
+      </div>
 
-			<Consultation />
+      <Consultation />
 
-			<Services />
+      <Expertise />
 
-			{/* <OurExpertise /> */}
+      <OurServices />
 
-			{/* <Specialities /> */}
+      <TestimonialSlider />
 
-			{/* <Benefits /> */}
+      <Certifications />
 
-			<TestimonialSlider />
-
-			{/* <LatestBlogPost /> */}
-
-			<Certifications />
-
-
-			<Footer />
-		</>
-	);
+      <Footer />
+    </>
+  );
 };
 
-export default Index;
+export default Index3;
