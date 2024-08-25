@@ -18,7 +18,7 @@ const MainBanner = () => {
 
                 <div className="common-btn">
                   <Link
-                    href="/appointment"
+                    href="tel:+18882852880"
                     className="call-btn-two"
                   >
                     Click to Call

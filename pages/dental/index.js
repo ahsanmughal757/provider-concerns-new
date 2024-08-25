@@ -1,6 +1,6 @@
 import React from "react";
 import TopHeader from "../../components/_App/TopHeader";
-import Navbar from "../../components/_App/Navbar";
+import Navbar from "../../components/Dental/Navbar";
 import MainBanner from "../../components/Dental/MainBanner";
 import Expertise from "../../components/Dental/Expertise";
 import OurServices from "../../components/Dental/OurServices";

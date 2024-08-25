@@ -97,18 +97,6 @@ const Navbar = () => {
 										</Link>
 									</li>
 
-									{/* <li className="nav-item">
-                    <Link href="#what-we-do" className="nav-link">
-                      What we do
-                    </Link>
-                  </li> */}
-
-									{/* <li className="nav-item">
-                    <Link href="#blogs" className="nav-link">
-                      Blogs
-                    </Link>
-                  </li> */}
-
 									<li className="nav-item">
 										<Link
 											href="/contact-us"
@@ -117,6 +105,17 @@ const Navbar = () => {
 											}`}
 										>
 											Contact Us
+										</Link>
+									</li>
+
+									<li className="nav-item">
+										<Link
+											href="/dental"
+											className={`nav-link ${
+												currentPath == "/contact-us/" && "active"
+											}`}
+										>
+											Dental Billing
 										</Link>
 									</li>
 									{/* <li className="nav-item">
