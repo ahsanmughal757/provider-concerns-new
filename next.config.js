@@ -1,16 +1,24 @@
 /** @type {import('next').NextConfig} */
 const path = require("path");
 const nextConfig = {
-	swcMinify: true,
-	trailingSlash: true,
-	sassOptions: {
-		includePaths: [path.join(__dirname, "styles")],
-	},
-	optimizeFonts: false,
-	i18n: {
-		locales: ["en", "ar"],
-		defaultLocale: "en",
-	},
+  async rewrites() {
+    return [
+      {
+        source: "/sitemap.xml",
+        destination: "/sitemap.xml",
+      },
+    ];
+  },
+  swcMinify: true,
+  trailingSlash: true,
+  sassOptions: {
+    includePaths: [path.join(__dirname, "styles")],
+  },
+  optimizeFonts: false,
+  i18n: {
+    locales: ["en", "ar"],
+    defaultLocale: "en",
+  },
 };
 
 module.exports = nextConfig;

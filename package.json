@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "postbuild": "next-sitemap"
+    "start": "next start"
   },
   "author": "HiBootstrap.com",
   "license": "ISC",
