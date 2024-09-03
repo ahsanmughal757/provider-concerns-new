@@ -33,7 +33,7 @@ const MainBanner = () => {
 
                 <div className="banner-right">
                   <img
-                    src="/images/home-three/home-three-banner1.png"
+                    src="/images/dental/main-banner.png"
                     alt="Banner"
                   />
                   <img

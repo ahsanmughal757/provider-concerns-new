@@ -259,10 +259,22 @@ h2.underline-text::after {
 
 /* -----------------ICONS END ------------------------- */
 
+.btn-common {
+  background-color: #0088cc;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+.btn-common:hover {
+  background-color: #fd5f00;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
 .header-top-item .header-top-left ul li a:hover {
   /* color: #0046c0; */
   color: #fd5f00;
 }
+
 
 .header-top-item .header-top-left ul li a i {
   color: #0046c0;
@@ -342,7 +354,7 @@ h2.underline-text::after {
 
 .main-nav nav .navbar-nav .nav-item a.nav-link {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .main-nav nav .navbar-nav .nav-item:hover {
@@ -2210,7 +2222,7 @@ footer {
 }
 
 .speciality-right {
-  background-image: url("/images/about4.jpg");
+  background-image: url("/images/dental/front-image.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3472,7 +3484,7 @@ footer {
 .blog-details-item .blog-details-search .form-control {
   height: 50px;
   border-radius: 6px;
-  border: 1px solid #0046c0;
+  border: 1px solid #0088cc;
   padding-left: 25px;
 }
 .blog-details-item .blog-details-search .form-control:focus {
@@ -3480,7 +3492,7 @@ footer {
 }
 .blog-details-item .blog-details-search .blog-details-btn {
   color: #ffffff;
-  background-color: #0046c0;
+  background-color: #0088cc;
   border-radius: 6px;
   position: absolute;
   top: 0;
@@ -3598,7 +3610,7 @@ footer {
   height: 30px;
   z-index: -1;
   transition: 0.5s all ease;
-  background-color: #2362bc;
+  background-color: #0088cc;
 }
 .blog-details-item .blog-details-category ul li:last-child {
   margin-bottom: 0;
@@ -4833,13 +4845,13 @@ footer {
 }
 
 .faq-content {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .faq-content:last-child {
   margin-bottom: 0;
 }
 .faq-content h2 {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   font-weight: 600;
   font-size: 25px;
 }
@@ -4849,7 +4861,7 @@ footer {
 }
 .faq-content .accordion .accordion__button:hover,
 .faq-content .accordion .accordion__button[aria-expanded="true"] {
-  background-color: #0046c0;
+  background-color: #0088cc;
   color: #fff;
 }
 .faq-content .accordion .accordion__button:hover:before,
@@ -4887,4 +4899,21 @@ footer {
   background-color: #0088cc;
   border-radius: 5px;
   margin-top: 10px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* Take Course Start */
+.enroll-btn { 
+  /* background-color: #0046c0; */
+  padding: 10px 20px;
+  color: #0088cc;
+  border: #0088cc 2px solid;
+}
+
+.enroll-btn:hover {
+  color: #ffffff;
+  background-color: #0088cc;
+}
+
+/* Take Course End */
+
+/*# sourceMappingURL=style.css.map */

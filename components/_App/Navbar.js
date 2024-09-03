@@ -118,16 +118,16 @@ const Navbar = () => {
 											Dental Billing
 										</Link>
 									</li>
-									{/* <li className="nav-item">
+									<li className="nav-item">
 										<Link
-											href="/blog/"
+											href="/take-course/"
 											className={`nav-link ${
 												currentPath == "/blog/" && "active"
 											}`}
 										>
-											Blog
+											Take Course
 										</Link>
-									</li> */}
+									</li>
 									<li className="schedule-container">
 										<Link
 											href="/demo-request/"

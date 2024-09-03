@@ -1,7 +1,7 @@
 import React from "react";
 import { useField } from "formik";
 
-const TextInputLiveFeedback = ({ label, helpText, ...props }) => {
+const TextAreaLiveFeedback = ({ label, helpText, ...props }) => {
   const [field, meta] = useField(props);
 
   // Show inline feedback if EITHER
@@ -28,7 +28,7 @@ const TextInputLiveFeedback = ({ label, helpText, ...props }) => {
           </div>
         ) : null}
       </div>
-      <input
+      <textarea
         {...props}
         {...field}
         aria-describedby={`${props.id}-feedback ${props.id}-help`}
@@ -41,4 +41,4 @@ const TextInputLiveFeedback = ({ label, helpText, ...props }) => {
   );
 };
 
-export default TextInputLiveFeedback;
+export default TextAreaLiveFeedback;
