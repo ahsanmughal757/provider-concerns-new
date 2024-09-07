@@ -11,7 +11,7 @@ import Mission from "../components/About/Mission";
 import GoogleMap from "../components/HomeOne/GoogleMap";
 import WhatMakesDifferent from "../components/About/WhatMakesDifferent";
 import CompanyValues from "../components/About/CompanyValues";
-import TestimonialSlider from "../components/Common/TestimonialSlider";
+import Testimonials from "../components/Common/Testimonials";
 
 const About = () => {
 	return (
@@ -26,21 +26,13 @@ const About = () => {
 
 			<WhatMakesDifferent />
 
-			{/* <FunFacts /> */}
-
-			{/* <OurExpertise /> */}
-
 			<Vision />
 
 			<Mission />
 
 			<CompanyValues />
 
-			{/* <Services /> */}
-
-			<TestimonialSlider />
-
-			{/* <LatestBlogPost /> */}
+			<Testimonials />
 
 			<GoogleMap />
 

@@ -23,7 +23,7 @@ const CompanyValues = () => {
             }}
             className="col-sm-6 col-lg-6"
           >
-            <div className="values-item bg">
+            <div className="values-item bg rounded-3">
               <div className="service-front">
                 <i className="icofont-win-trophy"></i>
                 <h3>Proficiency</h3>
@@ -47,7 +47,7 @@ const CompanyValues = () => {
             }}
             className="col-sm-6 col-lg-6"
           >
-            <div className="values-item bg">
+            <div className="values-item bg rounded-3">
               <div className="service-front">
                 <i className="icofont-people"></i>
 
@@ -72,7 +72,7 @@ const CompanyValues = () => {
             }}
             className="col-sm-6 col-lg-6"
           >
-            <div className="values-item bg">
+            <div className="values-item bg rounded-3">
               <div className="service-front">
                 <i className="icofont-unique-idea"></i>
                 <h3>Creativity</h3>
@@ -93,7 +93,7 @@ const CompanyValues = () => {
               transition: { duration: 0.3, stiffness: 10 },
               type: "spring",
             }} className="col-sm-6 col-lg-6">
-            <div className="values-item bg">
+            <div className="values-item bg rounded-3">
               <div className="service-front">
                 <i className="icofont-bulb-alt"></i>
                 <h3>Innovation</h3>

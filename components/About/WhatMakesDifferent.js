@@ -23,7 +23,7 @@ const WhatMakesDifferent = () => {
           className="row justify-content-center"
         >
           <div className="col-sm-6 col-lg-3">
-            <div className="difference-item bg">
+            <div className="difference-item bg rounded-3">
               <div className="service-front">
                 <i className="icofont-chart-histogram"></i>
                 <span className="text-content">
@@ -35,7 +35,7 @@ const WhatMakesDifferent = () => {
           </div>
 
           <div className="col-sm-6 col-lg-3">
-            <div className="difference-item bg">
+            <div className="difference-item bg rounded-3">
               <div className="service-front">
                 <i className="icofont-law-document"></i>
                 <span className="text-content">
@@ -47,7 +47,7 @@ const WhatMakesDifferent = () => {
           </div>
 
           <div className="col-sm-6 col-lg-3">
-            <div className="difference-item bg">
+            <div className="difference-item bg rounded-3">
               <div className="service-front">
                 <i className="icofont-swoosh-down"></i>
                 <span className="text-content">
@@ -59,7 +59,7 @@ const WhatMakesDifferent = () => {
           </div>
 
           <div className="col-sm-6 col-lg-3">
-            <div className="difference-item bg">
+            <div className="difference-item bg rounded-3">
               <div className="service-front">
                 <i className="icofont-document-folder"></i>
                 <span className="text-content">

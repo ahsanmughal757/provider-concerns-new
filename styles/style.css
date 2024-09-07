@@ -275,7 +275,6 @@ h2.underline-text::after {
   color: #fd5f00;
 }
 
-
 .header-top-item .header-top-left ul li a i {
   color: #0046c0;
   /* color: #fd5f00; */
@@ -1237,12 +1236,7 @@ textarea:invalid {
   border-radius: 10px;
 }
 
-
-
-
-
 /* End Dental Services */
-
 
 /*-- Expertise --*/
 .expertise-item {
@@ -1460,7 +1454,6 @@ textarea:invalid {
 }
 
 /* Our Expertise Dental End */
-
 
 /* Benefit Item Start*/
 
@@ -4902,7 +4895,7 @@ footer {
 }
 
 /* Take Course Start */
-.enroll-btn { 
+.enroll-btn {
   /* background-color: #0046c0; */
   padding: 10px 20px;
   color: #0088cc;
@@ -4915,5 +4908,80 @@ footer {
 }
 
 /* Take Course End */
+
+/* Custom Testimonial Slider Start */
+.testimonials-container {
+  max-width: 1400px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.testimonial-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+  /* height: 400px;  */
+  /* #112142; */
+
+  /* background-color: linear-gradient(90deg, #0046c0, #0088cc); */
+  background-image: linear-gradient(45deg, #0046c0 0%, #0088cc 100%);
+  
+  /* border-radius: 15px; */
+  color: #ffffff;
+  padding: 20px 25px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+}
+
+.testimonial-item p {
+  font-size: 16px;
+}
+
+.testimonial-item .testimonial-img h3,
+.testimonial-item .testimonial-img p {
+  color: #ffffff !important;
+}
+
+.testimonial-item .testimonial-img img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+/* Custom Testimonial Slider End */
+
+/* Swiper Testimonials Customization Start */
+
+.swiper.testimonials-container,
+.swiper-container.testimonials-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: fit-content;
+  /* overflow-x: hidden !important; */
+}
+
+.swiper-slide.testimonial-slide {
+  height: auto;
+}
+
+.swiper.testimonials-container .swiper-pagination {
+  /* margin-bottom: -50px; */
+  position: relative;
+  top: 20px !important;
+  z-index: 500 !important;
+}
+
+.swiper.testimonials-container .swiper-pagination .swiper-pagination-bullet {
+  background-color: #ff7d87 !important;
+  width: 40px;
+  border-radius: 5px;
+}
+/* Swiper Testimonials Customization End */
 
 /*# sourceMappingURL=style.css.map */

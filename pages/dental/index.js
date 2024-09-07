@@ -7,8 +7,8 @@ import OurServices from "../../components/Dental/OurServices";
 import Stats from "../../components/Dental/Stats";
 import Footer from "../../components/_App/Footer";
 import Consultation from "../../components/HomeOne/Consultation";
-import TestimonialSlider from "../../components/Dental/TestimonialSlider";
 import Certifications from "../../components/HomeOne/Certifications";
+import Testimonials from "../../components/Common/Testimonials";
 
 const Index3 = () => {
   return (
@@ -29,7 +29,7 @@ const Index3 = () => {
 
       <OurServices />
 
-      <TestimonialSlider />
+      <Testimonials />
 
       <Certifications />
 

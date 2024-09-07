@@ -8,40 +8,38 @@ import Services from "../components/HomeOne/Services";
 import OurExpertise from "../components/HomeOne/OurExpertise";
 import Specialities from "../components/HomeOne/Specialities";
 import Benefits from "../components/HomeOne/Benefits";
-import TestimonialSlider from "../components/Common/TestimonialSlider";
 import Footer from "../components/_App/Footer";
 import Certifications from "../components/HomeOne/Certifications";
+import Testimonials from "../components/Common/Testimonials";
 
 const Index = () => {
-	return (
-		<>
-			<TopHeader />
+  return (
+    <>
+      <TopHeader />
 
-			<Navbar />
+      <Navbar />
 
-			<HeroSlider />
+      <HeroSlider />
 
-			<Stats />
+      <Stats />
 
-			<Consultation />
+      <Consultation />
 
-			<Services />
+      <Services />
 
-			<OurExpertise />
+      <OurExpertise />
 
-			<Specialities />
+      <Specialities />
 
-			<Benefits />
+      <Benefits />
 
-			<TestimonialSlider />
+      <Testimonials />
 
-			{/* <LatestBlogPost /> */}
+      <Certifications />
 
-			<Certifications />
-
-			<Footer />
-		</>
-	);
+      <Footer />
+    </>
+  );
 };
 
 export default Index;
