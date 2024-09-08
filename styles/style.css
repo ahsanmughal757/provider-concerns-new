@@ -1667,29 +1667,38 @@ textarea:invalid {
 }
 
 .blog-item {
-  margin-bottom: 30px;
+  position: relative;
+  margin-bottom: 120px;
   border-radius: 10px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-color: transparent;
   box-shadow: 0px 0px 20px 0px rgba(221, 221, 221, 0.4196078431);
 }
-.blog-item:hover .blog-top {
+/* .blog-item:hover .blog-top {
   overflow: hidden;
-}
+} */
 .blog-item:hover .blog-top img {
-  transform: scale(1.1);
+  transform: scale(1.01);
+  filter: blur(1px) brightness(70%); 
 }
 .blog-item .blog-top {
-  overflow: hidden;
+  position: relative;
+  /* overflow: hidden; */
 }
 .blog-item .blog-top img {
+  position: absolute;
+  left: 0;
   width: 100%;
   border-radius: 10px;
   transition: 0.5s all ease;
+  filter: brightness(80%);
 }
 .blog-item .blog-top a {
   display: block;
 }
 .blog-item .blog-bottom {
+  position: relative;
+  z-index: 100;
   padding-top: 25px;
   padding-left: 20px;
   padding-right: 20px;
@@ -1701,7 +1710,7 @@ textarea:invalid {
 .blog-item .blog-bottom h3 a {
   font-weight: 600;
   font-size: 20px;
-  color: #232323;
+  color: #ffffff;
   margin-bottom: 12px;
   transition: 0.5s all ease;
   line-height: 1.4;
@@ -1711,7 +1720,7 @@ textarea:invalid {
   color: #0088cc;
 }
 .blog-item .blog-bottom p {
-  color: #232323;
+  color: #ffffff;
   margin-bottom: 0;
   padding-bottom: 20px;
 }
@@ -1724,12 +1733,12 @@ textarea:invalid {
 .blog-item .blog-bottom ul li {
   display: inline-block;
   list-style-type: none;
-  color: #0088cc;
+  color: #ffffff;
   font-weight: 500;
   font-size: 14px;
 }
 .blog-item .blog-bottom ul li i {
-  color: #0088cc;
+  color: #ffffff;
 }
 .blog-item .blog-bottom ul li:last-child {
   float: right;
@@ -1740,15 +1749,15 @@ textarea:invalid {
 }
 .blog-item .blog-bottom ul li a {
   display: block;
-  color: #0088cc;
+  color: #ffffff;
   font-weight: 500;
   font-size: 15px;
 }
 .blog-item .blog-bottom ul li a:hover {
-  color: #111111;
+  color: #0088cc;
 }
 .blog-item .blog-bottom ul li a:hover i {
-  color: #111111;
+  color: #0088cc;
 }
 .blog-item .blog-bottom ul li a i {
   display: inline-block;
