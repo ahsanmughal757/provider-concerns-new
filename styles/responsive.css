@@ -442,7 +442,7 @@
   /*-- End Doctors --*/
   /*-- Blog --*/
   .blog-item  {
-    margin-bottom: 200px;
+    margin-bottom: 60px;
   }
   .blog-item .blog-bottom h3 a {
     font-size: 15px;
@@ -2934,9 +2934,13 @@
   }
   /*-- End Expertise --*/
   /*-- Blog --*/
+  .blog-item {
+    position: relative;
+    overflow: hidden;
+  }
   .blog-item .blog-top img {
     margin: 0;
-    height: 300px;
+    height: 400px;
   }
   .blog-item .blog-bottom {
     padding-top: 30px;
