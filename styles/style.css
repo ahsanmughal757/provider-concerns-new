@@ -777,7 +777,6 @@ textarea:invalid {
 .consultation-container {
   margin-top: 100px;
   margin-bottom: 100px;
-  z-index: 10;
   position: relative;
   max-height: 800px;
 }
@@ -4949,10 +4948,15 @@ footer {
 /* Custom Testimonial Slider Start */
 .testimonials-container {
   max-width: 1400px;
+  z-index: 500;
   /* display: flex;
   justify-content: center;
   align-items: center; */
 }
+/* .swiper-button-next,
+.swiper-button-prev {
+  display: none;
+} */
 
 .testimonial-slide {
   display: flex;
@@ -5018,6 +5022,13 @@ footer {
   background-color: #ff7d87 !important;
   width: 40px;
   border-radius: 5px;
+}
+
+.testimonials-container .swiper-button-next {
+  display: none !important;
+} 
+.testimonials-container .swiper-button-prev {
+  display: none !important;
 }
 /* Swiper Testimonials Customization End */
 

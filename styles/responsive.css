@@ -9,6 +9,14 @@
   .consultation-container {
     margin-bottom: 400px;
   }
+
+  .counter-area {
+    z-index: -1 !important;
+  }
+
+  .testimonials-container {
+    z-index: -1 !important;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -37,7 +45,6 @@
     width: 35px;
     height: 35px; 
   }
-
 }
 @media only screen and (min-width: 768px) {
   .swiper-button-prev {
@@ -104,6 +111,7 @@
   .expertise-item .expertise-inner {
     height: 350px;
   }
+  
 }
 
 @media only screen and (max-width: 572px) {

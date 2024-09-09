@@ -11,6 +11,7 @@ import Benefits from "../components/HomeOne/Benefits";
 import Footer from "../components/_App/Footer";
 import Certifications from "../components/HomeOne/Certifications";
 import Testimonials from "../components/Common/Testimonials";
+import LatestBlogPost from "../components/Common/LatestBlogPost";
 
 const Index = () => {
   return (
@@ -34,6 +35,8 @@ const Index = () => {
       <Benefits />
 
       <Testimonials />
+
+      <LatestBlogPost />
 
       <Certifications />
 

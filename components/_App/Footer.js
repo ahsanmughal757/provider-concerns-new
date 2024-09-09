@@ -1,7 +1,6 @@
 import React from "react";
 import axios from "axios";
 import Link from "next/link";
-import Image from "next/image";
 import { Form, Field, FormikProvider, ErrorMessage, useFormik } from "formik";
 import * as Yup from "yup";
 import Swal from "sweetalert2";
@@ -107,11 +106,14 @@ const Footer = () => {
 										<li>
 											<Link href="/dental">Dental Billing</Link>
 										</li>
-										{/* <li>
-											<Link href="/blog">Blog</Link>
-										</li> */}
 										<li>
 											<Link href="/#testimonials">Testimonials</Link>
+										</li>
+										<li>
+											<Link href="/take-course">Take Course</Link>
+										</li>
+										<li>
+											<Link href="/blog">Blog</Link>
 										</li>
 									</ul>
 								</div>

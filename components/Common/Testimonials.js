@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 const Testimonials = () => {
   return (
@@ -10,9 +10,11 @@ const Testimonials = () => {
       </div>
 
       <Swiper
-        navigation={true}
         slidesPerView="2"
-        // centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         breakpoints={{
           0: {
             slidesPerView: 1,
@@ -46,7 +48,7 @@ const Testimonials = () => {
           clickable: true,
         }}
         slidesPerGroupSkip={0}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination]}
         className="testimonials-container my-5"
       >
         <SwiperSlide className="testimonial-slide">
