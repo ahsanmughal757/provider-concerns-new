@@ -53,8 +53,23 @@ const Testimonials = () => {
       >
         <SwiperSlide className="testimonial-slide">
           <div className="testimonial-item rounded-3">
-            <div>
-              <i style={{ fontSize: "18px" }} className="bi bi-quote"></i>
+            <div className="mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                ariaHidden="true"
+                dataPrefix="fas"
+                data-icon="quote-left"
+                role="img"
+                viewBox="0 0 512 512"
+                class="svg-inline--fa fa-quote-left fa-w-16 fa-7x"
+                width={45}
+              >
+                <path
+                  fill="currentColor"
+                  d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  class=""
+                />
+              </svg>
             </div>
             <p className="fst-italic">
               "Provider Concerns Solutions has revolutionized our medical
@@ -73,6 +88,24 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial-slide">
           <div className="testimonial-item rounded-3">
+            <div className="mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                ariaHidden="true"
+                dataPrefix="fas"
+                data-icon="quote-left"
+                role="img"
+                viewBox="0 0 512 512"
+                class="svg-inline--fa fa-quote-left fa-w-16 fa-7x"
+                width={45}
+              >
+                <path
+                  fill="currentColor"
+                  d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  class=""
+                />
+              </svg>
+            </div>
             <p className="fst-italic">
               "Switching to Provider Concerns Solutions was one of the best
               decisions I made for my orthopedic practice. Their team's
@@ -89,6 +122,24 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial-slide">
           <div className="testimonial-item rounded-3">
+            <div className="mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                ariaHidden="true"
+                dataPrefix="fas"
+                data-icon="quote-left"
+                role="img"
+                viewBox="0 0 512 512"
+                class="svg-inline--fa fa-quote-left fa-w-16 fa-7x"
+                width={45}
+              >
+                <path
+                  fill="currentColor"
+                  d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  class=""
+                />
+              </svg>
+            </div>
             <p className="fst-italic">
               "I can't thank Provider Concerns Solutions enough for their
               exceptional medical billing services. Their attention to detail
@@ -105,6 +156,24 @@ const Testimonials = () => {
         </SwiperSlide>
         <SwiperSlide className="testimonial-slide">
           <div className="testimonial-item rounded-3">
+            <div className="mb-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                ariaHidden="true"
+                dataPrefix="fas"
+                data-icon="quote-left"
+                role="img"
+                viewBox="0 0 512 512"
+                class="svg-inline--fa fa-quote-left fa-w-16 fa-7x"
+                width={45}
+              >
+                <path
+                  fill="currentColor"
+                  d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                  class=""
+                />
+              </svg>
+            </div>
             <p className="fst-italic">
               "Provider Concerns Solutions has been instrumental in optimizing
               our laboratory billing processes. Their expertise in medical
