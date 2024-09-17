@@ -19,7 +19,7 @@ const HeroSlider = () => {
         pagination={{
           clickable: true,
           renderBullet: (index, className) =>
-            `<span class="text-white h5 ${className}">0${index + 1}</span>`,
+            `<span className="text-white h5 ${className}">0${index + 1}</span>`,
         }}
         modules={[Pagination, Navigation, EffectFade, Autoplay]}
         className="home-slider relative"

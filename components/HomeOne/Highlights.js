@@ -12,7 +12,7 @@ const Highlights = () => {
                 <svg
                   style={{ width: "3.5em", height: "3.5em" }}
                   aria-hidden="true"
-                  class="e-font-icon-svg e-fas-headset"
+                  className="e-font-icon-svg e-fas-headset"
                   viewBox="0 0 512 512"
                   fill="#0088cc"
                   xmlns="http://www.w3.org/2000/svg"
@@ -42,37 +42,37 @@ const Highlights = () => {
             <div className="container-fluid">
               <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-6">
-                  <div class="form-group my-3">
+                  <div className="form-group my-3">
                     <label htmlFor="firstName" className="my-2">
                       Name:
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="firstName"
                       placeholder=""
                       name="firstName"
                     />
                   </div>
-                  <div class="form-group my-3">
+                  <div className="form-group my-3">
                     <label htmlFor="firstName" className="my-2">
                       Email:
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="firstName"
                       placeholder=""
                       name="firstName"
                     />
                   </div>
-                  <div class="form-group my-3">
+                  <div className="form-group my-3">
                     <label htmlFor="firstName" className="my-2">
                       Monthly Billing:
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="firstName"
                       placeholder=""
                       name="firstName"
@@ -80,37 +80,37 @@ const Highlights = () => {
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-6">
-                  <div class="form-group my-3">
+                  <div className="form-group my-3">
                     <label htmlFor="firstName" className="my-2">
                       Business Name:
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="firstName"
                       placeholder=""
                       name="firstName"
                     />
                   </div>
-                  <div class="form-group my-3">
+                  <div className="form-group my-3">
                     <label htmlFor="firstName" className="my-2">
                       Phone:
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="firstName"
                       placeholder=""
                       name="firstName"
                     />
                   </div>
-                  <div class="form-group my-3">
+                  <div className="form-group my-3">
                     <label htmlFor="firstName" className="my-2">
                       Providers:
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="firstName"
                       placeholder=""
                       name="firstName"
@@ -119,24 +119,24 @@ const Highlights = () => {
                 </div>
 
                 <div className="col-lg-12 col-md-12 col-sm-12">
-                  <div class="form-group mb-3">
+                  <div className="form-group mb-3">
                     <label htmlFor="firstName" className="my-2">
                       Total AR:
                     </label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       id="firstName"
                       placeholder=""
                       name="firstName"
                     />
                   </div>
-                  <div class="form-outline">
-                    <label class="form-label" htmlFor="textAreaExample1">
+                  <div className="form-outline">
+                    <label className="form-label" htmlFor="textAreaExample1">
                       Your Message
                     </label>
                     <textarea
-                      class="form-control"
+                      className="form-control"
                       id="textAreaExample1"
                       rows="4"
                     ></textarea>

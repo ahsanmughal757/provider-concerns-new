@@ -18,10 +18,10 @@ export default async (req, res) => {
     from: email,
     subject: `Feedback from ${name}`,
     html: `
-    <div class="header" style="background-color: #f2f2f2; padding: 20px 0; text-align: center;">
+    <div className="header" style="background-color: #f2f2f2; padding: 20px 0; text-align: center;">
         <h1>Feedback</h1>
     </div>
-    <div class="content" style="padding: 20px;">
+    <div className="content" style="padding: 20px;">
         <table style="border-collapse: collapse; width: 100%;">
             <tr>
                 <td style="padding: 10px; border: 1px solid #ddd;"><strong>Name:</strong></td>

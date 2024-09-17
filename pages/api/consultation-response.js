@@ -3,44 +3,15 @@ import { render } from "@react-email/render";
 import { ConsultationResponseEmail } from "../../emails/consultation-response";
 import path from "path";
 
-// const transporter = nodemailer.createTransport({
-//   host: process.env.SMTP_HOST,
-//   port: process.env.SMTP_PORT,
-//   secure: true,
-//   auth: {
-//     user: process.env.SUPPORT_EMAIL,
-//     pass: process.env.EMAIL_PASS,
-//   },
-// });
-
 const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,
   port: process.env.SMTP_PORT,
-  secure: false, // true for 465, false for other ports
+  secure: true,
   auth: {
     user: process.env.SUPPORT_EMAIL,
     pass: process.env.EMAIL_PASS,
-    // pass: "=gK$5UH]x1#U",
-  },
-  tls: {
-    // Do not fail on invalid certs
-    rejectUnauthorized: false,
   },
 });
-
-
-// const transporter = nodemailer.createTransport({
-//   host: "premium219.web-hosting.com",
-//   port: Number(587),
-//   secure: false,
-//   auth: {
-//     user: "support@providerconcerns.com",
-//     pass: "=gK$5UH]x1#U",
-//   },
-//   tls: {
-//     rejectUnauthorized: false,
-//   },
-// });
 
 export default async (req, res) => {
   const { name, email } = req.body;
@@ -70,11 +41,10 @@ export default async (req, res) => {
   };
   
   try {
-    console.log("__dirname: ", __dirname);
     await transporter.sendMail(mailOptions, async function (error, info) {
       if (error) {
         console.log(error);
-        return res.status(500).json({ message: "EMAIL_SEND_ERROR" });
+        return res.status(500).json({ message: error.message });
       }
 
       if (info?.accepted?.length !== 0) {
