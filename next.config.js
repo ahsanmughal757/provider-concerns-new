@@ -19,6 +19,7 @@ const nextConfig = {
     locales: ["en", "ar"],
     defaultLocale: "en",
   },
+  // transpilePackages: ['swiper'] 
 };
 
 module.exports = nextConfig;
