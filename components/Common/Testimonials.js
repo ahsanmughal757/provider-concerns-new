@@ -80,7 +80,7 @@ const Testimonials = () => {
               recommended!"
             </p>
             <div className="testimonial-img mb-4">
-              <img src="/images/clients/client1.png" alt="Feedback" />
+              {/* <img src="/images/clients/client1.png" alt="Feedback" /> */}
               <h3 className="mb-0 mt-2 fs-5">Dr. Emily Smith, MD</h3>
               <p className="text-secondary">- Pediatric</p>
             </div>
@@ -114,7 +114,7 @@ const Testimonials = () => {
               delayed payments, allowing me to focus more on patient care."
             </p>
             <div className="testimonial-img mb-4">
-              <img src="/images/clients/client2.png" alt="Feedback" />
+              {/* <img src="/images/clients/client2.png" alt="Feedback" /> */}
               <h3 className="mb-0 mt-2 fs-5">Dr. Michael Johnson, DO</h3>
               <p className="text-secondary">- Orthopedic Surgery</p>
             </div>
@@ -148,7 +148,7 @@ const Testimonials = () => {
               in practice profitability. Trustworthy and professional!"
             </p>
             <div className="testimonial-img mb-4">
-              <img src="/images/clients/client3.png" alt="Feedback" />
+              {/* <img src="/images/clients/client3.png" alt="Feedback" /> */}
               <h3 className="mb-0 mt-2 fs-5">Dr. Sarah Patel, MD</h3>
               <p className="text-secondary">- Internal Medicine</p>
             </div>
@@ -184,7 +184,7 @@ const Testimonials = () => {
               to client satisfaction make them an invaluable asset to our lab."
             </p>
             <div className="testimonial-img mb-4">
-              <img src="/images/clients/client3.png" alt="Feedback" />
+              {/* <img src="/images/clients/client3.png" alt="Feedback" /> */}
               <h3 className="mb-0 mt-2 fs-5">LabTech Diagnostics</h3>
               <p className="text-secondary">- Toxicology</p>
             </div>
