@@ -29,7 +29,7 @@ const Index3 = () => {
 
       <OurServices />
 
-      <Testimonials />
+      {/* <Testimonials /> */}
 
       <Certifications />
 

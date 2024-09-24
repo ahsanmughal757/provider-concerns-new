@@ -32,7 +32,7 @@ const About = () => {
 
 			<CompanyValues />
 
-			<Testimonials />
+			{/* <Testimonials /> */}
 
 			<GoogleMap />
 
