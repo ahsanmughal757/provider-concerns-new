@@ -10,29 +10,31 @@ const BlogGrid = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
+                  <Link href="../blogs/kpi-in-revenue-cycle-management">
                     <img src="/images/blog/blog1.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
-                      In this hospital there are special surgeon.
+                    <Link href="../blogs/kpi-in-revenue-cycle-management">
+                      KPIs in Revenue Cycle Management
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
+                    Effective revenue cycle management (RCM) is crucial to the
+                    financial stability of any healthcare practice. By measuring
+                    key performance indicators (KPIs), businesses may better
+                    understand their financial operations...
                   </p>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="../blogs/kpi-in-revenue-cycle-management">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
                     <li>
                       <i className="icofont-calendar"></i>
-                      Jan 03, 2022
+                      Oct 03, 2024
                     </li>
                   </ul>
                 </div>
@@ -42,29 +44,29 @@ const BlogGrid = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
+                  <Link href="../blogs/dme-billing-company">
                     <img src="/images/blog/blog2.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
-                      World AIDS Day, designated on 1 December
-                    </Link>
+                    <Link href="../blogs/dme-billing-company">DME Billing Company</Link>
                   </h3>
                   <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
+                    Durable Medical Equipment (DME) billing is a specific area
+                    of medical billing that presents its own set of issues,
+                    including handling thorough paperwork and negotiating payer
+                    requirements. If not managed appropriately...
                   </p>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="../blogs/dme-billing-company">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
                     <li>
                       <i className="icofont-calendar"></i>
-                      Jan 03, 2022
+                      Oct 04, 2024
                     </li>
                   </ul>
                 </div>
@@ -74,221 +76,31 @@ const BlogGrid = () => {
             <div className="col-md-6 col-lg-4">
               <div className="blog-item">
                 <div className="blog-top">
-                  <Link href="/blog-details">
+                  <Link href="../blogs/benefits-of-outsourcing-medical-billing">
                     <img src="/images/blog/blog3.jpg" alt="Blog" />
                   </Link>
                 </div>
                 <div className="blog-bottom">
                   <h3>
-                    <Link href="/blog-details">
-                      More than 80 clinical trials launch to test coronavirus
+                    <Link href="../blogs/benefits-of-outsourcing-medical-billing">
+                      Benefits of Outsourcing Medical Billing
                     </Link>
                   </h3>
                   <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
+                    In today's fast-paced healthcare setting, handling the
+                    billing process on-site can be time-consuming and costly.
+                    Outsourcing medical billing allows healthcare providers to
+                    focus...
                   </p>
                   <ul>
                     <li>
-                      <Link href="/blog-details">
+                      <Link href="../blogs/benefits-of-outsourcing-medical-billing">
                         Read More <i className="icofont-long-arrow-right"></i>
                       </Link>
                     </li>
                     <li>
                       <i className="icofont-calendar"></i>
-                      Jan 03, 2022
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="blog-item">
-                <div className="blog-top">
-                  <Link href="/blog-details">
-                    <img src="/images/blog/blog4.jpg" alt="Blog" />
-                  </Link>
-                </div>
-                <div className="blog-bottom">
-                  <h3>
-                    <Link href="/blog-details">
-                      We always give the best from us
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
-                  <ul>
-                    <li>
-                      <Link href="/blog-details">
-                        Read More <i className="icofont-long-arrow-right"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <i className="icofont-calendar"></i>
-                      Jan 03, 2022
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="blog-item">
-                <div className="blog-top">
-                  <Link href="/blog-details">
-                    <img src="/images/blog/blog5.jpg" alt="Blog" />
-                  </Link>
-                </div>
-                <div className="blog-bottom">
-                  <h3>
-                    <Link href="/blog-details">
-                      Be aware about the coronavirus
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
-                  <ul>
-                    <li>
-                      <Link href="/blog-details">
-                        Read More <i className="icofont-long-arrow-right"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <i className="icofont-calendar"></i>
-                      Jan 03, 2022
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="blog-item">
-                <div className="blog-top">
-                  <Link href="/blog-details">
-                    <img src="/images/blog/blog6.jpg" alt="Blog" />
-                  </Link>
-                </div>
-                <div className="blog-bottom">
-                  <h3>
-                    <Link href="/blog-details">
-                      No one find any medicines to prevent evolovirus
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
-                  <ul>
-                    <li>
-                      <Link href="/blog-details">
-                        Read More <i className="icofont-long-arrow-right"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <i className="icofont-calendar"></i>
-                      Jan 03, 2022
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="blog-item">
-                <div className="blog-top">
-                  <Link href="/blog-details">
-                    <img src="/images/blog/blog7.jpg" alt="Blog" />
-                  </Link>
-                </div>
-                <div className="blog-bottom">
-                  <h3>
-                    <Link href="/blog-details">
-                      Thailand is trying to make vaccine of coronavirus
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
-                  <ul>
-                    <li>
-                      <Link href="/blog-details">
-                        Read More <i className="icofont-long-arrow-right"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <i className="icofont-calendar"></i>
-                      Jan 03, 2022
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="blog-item">
-                <div className="blog-top">
-                  <Link href="/blog-details">
-                    <img src="/images/blog/blog8.jpg" alt="Blog" />
-                  </Link>
-                </div>
-                <div className="blog-bottom">
-                  <h3>
-                    <Link href="/blog-details">
-                      Already 1932 people have died in China
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
-                  <ul>
-                    <li>
-                      <Link href="/blog-details">
-                        Read More <i className="icofont-long-arrow-right"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <i className="icofont-calendar"></i>
-                      Jan 03, 2022
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6 col-lg-4">
-              <div className="blog-item">
-                <div className="blog-top">
-                  <Link href="/blog-details">
-                    <img src="/images/blog/blog9.jpg" alt="Blog" />
-                  </Link>
-                </div>
-                <div className="blog-bottom">
-                  <h3>
-                    <Link href="/blog-details">
-                      30+ countries have affected by coronavirus
-                    </Link>
-                  </h3>
-                  <p>
-                    Lorem ipsum is dolor sit amet, csectetur adipiscing elit,
-                    dolore smod tempor incididunt ut labore et....
-                  </p>
-                  <ul>
-                    <li>
-                      <Link href="/blog-details">
-                        Read More <i className="icofont-long-arrow-right"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <i className="icofont-calendar"></i>
-                      Jan 03, 2022
+                      Oct 05, 2024
                     </li>
                   </ul>
                 </div>

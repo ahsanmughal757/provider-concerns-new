@@ -128,7 +128,7 @@ const Navbar = () => {
                       Dental Billing
                     </Link>
                   </li>
-                  {/* <li className="nav-item">
+                  <li className="nav-item">
                     <Link
                       href="/take-course"
                       className={`nav-link ${
@@ -147,7 +147,7 @@ const Navbar = () => {
                     >
                       Blog
                     </Link>
-                  </li> */}
+                  </li>
                   <li className="schedule-container">
                     <Link
                       href="/demo-request/"

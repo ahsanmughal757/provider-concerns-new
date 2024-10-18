@@ -106,15 +106,15 @@ const Footer = () => {
 										<li>
 											<Link href="/dental">Dental Billing</Link>
 										</li>
-										{/* <li>
+										<li>
 											<Link href="/#testimonials">Testimonials</Link>
-										</li> */}
-										{/* <li>
+										</li>
+										<li>
 											<Link href="/take-course">Take Course</Link>
 										</li>
 										<li>
 											<Link href="/blog">Blog</Link>
-										</li> */}
+										</li>
 									</ul>
 								</div>
 							</div>
