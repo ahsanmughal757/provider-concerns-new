@@ -1,0 +1,23 @@
+# *
+User-agent: *
+Disallow: /private/
+Disallow: /temporary/
+Disallow: /admin/
+Disallow: /cgi-bin/
+
+# Allow search engines to index the entire website except for specified directories
+Allow: /
+
+# Host
+Host: https://providerconcerns.com
+
+# Sitemaps
+Sitemap: https://providerconcerns.com/sitemap.xml
+
+# Block specific bots
+User-agent: BadBot
+Disallow: /
+
+# Allow Googlebot to access everything
+User-agent: Googlebot
+Disallow:
