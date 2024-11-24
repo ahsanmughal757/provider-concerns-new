@@ -3418,10 +3418,15 @@ footer {
 /*-- Blog Details --*/
 .blog-details-item {
   margin-bottom: 30px;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto; 
+  margin-right: auto;
 }
 .blog-details-item .blog-details-img img {
   width: 100%;
   margin-bottom: 30px;
+  border-radius: 14px;
 }
 .blog-details-item .blog-details-img h2 {
   color: #232323;
